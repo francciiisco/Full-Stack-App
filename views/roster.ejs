@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mavs Roster</title>
+</head>
+<body>
+     <br/>
+    <% for ( let i = 0; i < mavs.length; i++) { %>
+    <ul>
+        <li>
+            <a class="playerimg" href="/mavs/<%=mavs[i].id%>">
+                <img src=<%=mavs[i].img%>></img>
+              </a>
+        </li>
+    </ul>
+    <% } %>
+
+    
+    <a href="/mavs/new">Add New Player</a>
+
+
+</body>
+</html>

@@ -8,9 +8,9 @@ module.exports = [
     img:"https://mavs.wpenginepowered.com/wp-content/uploads/2019/07/Luka-Doncic-Roster-Headshot-22-23.png",
     stats: [
         {
-            ppg: 33,
-            apg: 8,
-            rpg: 8.6
+            ppg: "33",
+            apg: "8",
+            rpg: "8.6"
         }
     ]
   },
@@ -23,9 +23,9 @@ module.exports = [
     img: "https://mavs.wpenginepowered.com/wp-content/uploads/2023/02/Kyrie-Roster-Headshot-22-23.png" ,
     stats: [
         {
-            ppg: 27.2,
-            apg: 5.6,
-            rpg: 5.1
+            ppg: "27.2",
+            apg: "5.6",
+            rpg: "5.1"
         }
     ]
   },
@@ -38,9 +38,9 @@ module.exports = [
     img:"https://mavs.wpenginepowered.com/wp-content/uploads/2021/08/Reggie-Bullock-Roster-Headshot-22-23.png",
     stats: [
         {
-            ppg: 7.1,
-            apg: 1.4,
-            rpg: 3.5
+            ppg: "7.1",
+            apg: "1.4",
+            rpg: "3.5"
         }
     ]
   },
@@ -53,9 +53,9 @@ module.exports = [
     img:"https://mavs.wpenginepowered.com/wp-content/uploads/2019/07/Maxi-Kleber-Roster-Headshot-22-23.png",
     stats: [
         {
-            ppg: 6.3,
-            apg: 1.2,
-            rpg: 3.8
+            ppg: "6.3",
+            apg: "1.2",
+            rpg: "3.8"
         }
     ]
   },
@@ -68,9 +68,9 @@ module.exports = [
     img:"https://mavs.wpenginepowered.com/wp-content/uploads/2022/06/Christian-Wood-Roster-Headshot-FINAL.png",
     stats: [
         {
-            ppg: 17.1,
-            apg: 1.6,
-            rpg: 7.6
+            ppg: "17.1",
+            apg: "1.6",
+            rpg: "7.6"
         }
     ]
   },
@@ -83,9 +83,9 @@ module.exports = [
     img:"https://mavs.wpenginepowered.com/wp-content/uploads/2022/02/Davis-Bertans-Roster-Headshot-22-23.png",
     stats: [
         {
-            ppg: 4.3,
-            apg: 0.4,
-            rpg: 1
+            ppg: "4.3",
+            apg: "0.4",
+            rpg: "1"
         }
     ]
   },
@@ -98,9 +98,9 @@ module.exports = [
     img:"https://mavs.wpenginepowered.com/wp-content/uploads/2020/12/Josh-Green-Roster-Headshot-22-23.png",
     stats: [
         {
-            ppg: 9,
-            apg: 1.6,
-            rpg: 2.9
+            ppg: "9",
+            apg: "1.6",
+            rpg: "2.9"
         }
     ]
   },
@@ -113,9 +113,9 @@ module.exports = [
     img: "https://mavs.wpenginepowered.com/wp-content/uploads/2019/02/Tim-Hardaway-Jr-Roster-Headshot-22-23.png",
     stats: [
         {
-            ppg: 14.4,
-            apg: 1.8,
-            rpg: 3.6
+            ppg: "14.4",
+            apg: "1.8",
+            rpg: "3.6"
         }
     ]
   },
@@ -128,9 +128,9 @@ module.exports = [
     img:"https://mavs.wpenginepowered.com/wp-content/uploads/2022/06/Jaden-Hardy-Roster-Headshot-22-23.png",
     stats: [
         {
-            ppg: 7,
-            apg: 0.9,
-            rpg: 1.3
+            ppg: "7",
+            apg: "0.9",
+            rpg: "1.3"
         }
     ]
   },
@@ -143,9 +143,9 @@ module.exports = [
     img:"https://mavs.wpenginepowered.com/wp-content/uploads/2023/02/Justin-Holdiay.png",
     stats: [
         {
-            ppg: 4.6,
-            apg: 0.9,
-            rpg: 1
+            ppg: "4.6",
+            apg: "0.9",
+            rpg: "1"
         }
     ]
   },
@@ -158,9 +158,9 @@ module.exports = [
     img:"https://mavs.wpenginepowered.com/wp-content/uploads/2023/01/A.J._Lawson_Roster_Headshot_22-23.png",
     stats: [
         {
-            ppg: 2.6,
-            apg: 0.1,
-            rpg: 0.8
+            ppg: "2.6",
+            apg: "0.1",
+            rpg: "0.8"
         }
     ]
   },
@@ -173,9 +173,9 @@ module.exports = [
     img:"https://mavs.wpenginepowered.com/wp-content/uploads/2022/07/Javale-McGee-Roster-Headshot-22-23.png",
     stats: [
         {
-            ppg: 4.1,
-            apg: 0.3,
-            rpg: 2.6
+            ppg: "4.1",
+            apg: "0.3",
+            rpg: "2.6"
         }
     ]
   },
@@ -188,9 +188,9 @@ module.exports = [
     img:"https://mavs.wpenginepowered.com/wp-content/uploads/2023/02/MARKEIFF-MORRIS_Jersey-Swap-1.png",
     stats: [
         {
-            ppg: 3.3,
-            apg: 0.8,
-            rpg: 2
+            ppg: "3.3",
+            apg: "0.8",
+            rpg: "2"
         }
     ]
   },
@@ -203,9 +203,9 @@ module.exports = [
     img:"https://mavs.wpenginepowered.com/wp-content/uploads/2021/09/Frank-Ntilikina-Roster-Headshot-22-23.png",
     stats: [
         {
-            ppg: 2.3,
-            apg: 1.1,
-            rpg: 1.3
+            ppg: "2.3",
+            apg: "1.1",
+            rpg: "1.3"
         }
     ]
   },
@@ -218,9 +218,9 @@ module.exports = [
     img:"https://mavs.wpenginepowered.com/wp-content/uploads/2021/12/Theo-Pinson-Roster-Headshot-22-23.png",
     stats: [
         {
-            ppg: 1.8,
-            apg: 0.8,
-            rpg: 1.1
+            ppg: "1.8",
+            apg: "0.8",
+            rpg: "1.1"
         }
     ]
   },  
@@ -233,9 +233,9 @@ module.exports = [
     img:"https://mavs.wpenginepowered.com/wp-content/uploads/2019/07/Dwight-Powell-Roster-Headshot-22-23.png",
     stats: [
         {
-            ppg: 6.8,
-            apg: 0.9,
-            rpg: 4.3
+            ppg: "6.8",
+            apg: "0.9",
+            rpg: "4.3"
         }
     ]
   },  
@@ -248,9 +248,9 @@ module.exports = [
     img:"https://mavs.wpenginepowered.com/wp-content/uploads/2023/01/McKinley_Wright_Roster_Headshot_22-23.png",
     stats: [
         {
-            ppg: 2.9,
-            apg: 2,
-            rpg: 1.4
+            ppg: "2.9",
+            apg: "2",
+            rpg: "1.4"
         }
     ]
   },

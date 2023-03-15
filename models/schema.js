@@ -11,9 +11,9 @@ const mavsSchema= Schema ({
     number: Number,
     img: String,
     stats: {
-        ppg: Number,
-        apg: Number,
-        rpg: Number
+        ppg: String,
+        apg: String,
+        rpg: String
     },
 })
 
