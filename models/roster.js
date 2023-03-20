@@ -5,14 +5,11 @@ module.exports = [
     height: "6'7",
     weight: 230,
     number: 77,
-    img:"https://mavs.wpenginepowered.com/wp-content/uploads/2019/07/Luka-Doncic-Roster-Headshot-22-23.png",
-    stats: [
-        {
-            ppg: "33",
-            apg: "8",
-            rpg: "8.6"
-        }
-    ]
+    img: "https://mavs.wpenginepowered.com/wp-content/uploads/2019/07/Luka-Doncic-Roster-Headshot-22-23.png",
+    ppg: "33",
+    apg: "8",
+    rpg: "8.6",
+    backimg: "https://wallpapercave.com/wp/wp5194953.jpg"
   },
   {
     name: "Kyrie Irving",
@@ -20,14 +17,11 @@ module.exports = [
     height: "6'2",
     weight: 195,
     number: 2,
-    img: "https://mavs.wpenginepowered.com/wp-content/uploads/2023/02/Kyrie-Roster-Headshot-22-23.png" ,
-    stats: [
-        {
-            ppg: "27.2",
-            apg: "5.6",
-            rpg: "5.1"
-        }
-    ]
+    img: "https://mavs.wpenginepowered.com/wp-content/uploads/2023/02/Kyrie-Roster-Headshot-22-23.png",
+    ppg: "27.2",
+    apg: "5.6",
+    rpg: "5.1",
+    backimg:"https://image-cdn.essentiallysports.com/wp-content/uploads/2023-02-11T054628Z_1021214375_MT1USATODAY19969249_RTRMADP_3_NBA-DALLAS-MAVERICKS-AT-SACRAMENTO-KINGS.jpg"
   },
   {
     name: "Reggie Bullock",
@@ -35,14 +29,11 @@ module.exports = [
     height: "6'6",
     weight: 205,
     number: 25,
-    img:"https://mavs.wpenginepowered.com/wp-content/uploads/2021/08/Reggie-Bullock-Roster-Headshot-22-23.png",
-    stats: [
-        {
-            ppg: "7.1",
-            apg: "1.4",
-            rpg: "3.5"
-        }
-    ]
+    img: "https://mavs.wpenginepowered.com/wp-content/uploads/2021/08/Reggie-Bullock-Roster-Headshot-22-23.png",
+    ppg: "7.1",
+    apg: "1.4",
+    rpg: "3.5",
+    backimg:"https://rare-gallery.com/thumbnail/1362170-Reggie-Bullock-HD-Wallpaper.jpg"
   },
   {
     name: "Maxi Kleber",
@@ -50,14 +41,11 @@ module.exports = [
     height: "6'10",
     weight: 240,
     number: 42,
-    img:"https://mavs.wpenginepowered.com/wp-content/uploads/2019/07/Maxi-Kleber-Roster-Headshot-22-23.png",
-    stats: [
-        {
-            ppg: "6.3",
-            apg: "1.2",
-            rpg: "3.8"
-        }
-    ]
+    img: "https://mavs.wpenginepowered.com/wp-content/uploads/2019/07/Maxi-Kleber-Roster-Headshot-22-23.png",
+    ppg: "6.3",
+    apg: "1.2",
+    rpg: "3.8",
+    backimg: "https://dmn-dallas-news-prod.cdn.arcpublishing.com/resizer/QSSNE461bWNN3w5BCJiqCVtynLE=/1660x934/smart/filters:no_upscale()/cloudfront-us-east-1.images.arcpublishing.com/dmn/PVBI67JBFBHUBMYHQQYIJ3RTH4.jpg"
   },
   {
     name: "Christian Wood",
@@ -65,14 +53,11 @@ module.exports = [
     height: "6'9",
     weight: 214,
     number: 35,
-    img:"https://mavs.wpenginepowered.com/wp-content/uploads/2022/06/Christian-Wood-Roster-Headshot-FINAL.png",
-    stats: [
-        {
-            ppg: "17.1",
-            apg: "1.6",
-            rpg: "7.6"
-        }
-    ]
+    img: "https://mavs.wpenginepowered.com/wp-content/uploads/2022/06/Christian-Wood-Roster-Headshot-FINAL.png",
+    ppg: "17.1",
+    apg: "1.6",
+    rpg: "7.6",
+    backimg: "https://staticg.sportskeeda.com/editor/2022/11/0e5f4-16692748159819-1920.jpg"
   },
   {
     name: "Davis Bertans",
@@ -80,14 +65,11 @@ module.exports = [
     height: "6'10",
     weight: 225,
     number: 44,
-    img:"https://mavs.wpenginepowered.com/wp-content/uploads/2022/02/Davis-Bertans-Roster-Headshot-22-23.png",
-    stats: [
-        {
-            ppg: "4.3",
-            apg: "0.4",
-            rpg: "1"
-        }
-    ]
+    img: "https://mavs.wpenginepowered.com/wp-content/uploads/2022/02/Davis-Bertans-Roster-Headshot-22-23.png",
+    ppg: "4.3",
+    apg: "0.4",
+    rpg: "1",
+    backimg:"https://www.si.com/.image/t_share/MTkzNzUyNDQ3Nzc1MTU1Njk2/usatsi_18314511_168388359_lowres.jpg"
   },
   {
     name: "Josh Green",
@@ -95,14 +77,11 @@ module.exports = [
     height: "6'7",
     weight: 200,
     number: 8,
-    img:"https://mavs.wpenginepowered.com/wp-content/uploads/2020/12/Josh-Green-Roster-Headshot-22-23.png",
-    stats: [
-        {
-            ppg: "9",
-            apg: "1.6",
-            rpg: "2.9"
-        }
-    ]
+    img: "https://mavs.wpenginepowered.com/wp-content/uploads/2020/12/Josh-Green-Roster-Headshot-22-23.png",
+    ppg: "9",
+    apg: "1.6",
+    rpg: "2.9",
+    backimg: "https://cdn.vox-cdn.com/thumbor/PrUZSHF9jcVtrM5QyBkrDBjgdzA=/0x0:3626x2417/1200x800/filters:focal(1767x84:2347x664)/cdn.vox-cdn.com/uploads/chorus_image/image/70362539/1363377452.0.jpg"
   },
   {
     name: "Tim Hardaway Jr.",
@@ -111,13 +90,10 @@ module.exports = [
     weight: 205,
     number: 11,
     img: "https://mavs.wpenginepowered.com/wp-content/uploads/2019/02/Tim-Hardaway-Jr-Roster-Headshot-22-23.png",
-    stats: [
-        {
-            ppg: "14.4",
-            apg: "1.8",
-            rpg: "3.6"
-        }
-    ]
+    ppg: "14.4",
+    apg: "1.8",
+    rpg: "3.6",
+    backimg: "https://images2.minutemediacdn.com/image/fetch/w_850,h_560,c_fill,g_auto,f_auto/https:%2F%2Fthesmokingcuban.com%2Fwp-content%2Fuploads%2Fgetty-images%2F2017%2F07%2F1182547701-850x560.jpeg"
   },
   {
     name: "Jaden Hardy",
@@ -125,14 +101,11 @@ module.exports = [
     height: "6'3",
     weight: 198,
     number: 3,
-    img:"https://mavs.wpenginepowered.com/wp-content/uploads/2022/06/Jaden-Hardy-Roster-Headshot-22-23.png",
-    stats: [
-        {
-            ppg: "7",
-            apg: "0.9",
-            rpg: "1.3"
-        }
-    ]
+    img: "https://mavs.wpenginepowered.com/wp-content/uploads/2022/06/Jaden-Hardy-Roster-Headshot-22-23.png",
+    ppg: "7",
+    apg: "0.9",
+    rpg: "1.3",
+    backimg: "https://dmn-dallas-news-prod.cdn.arcpublishing.com/resizer/T5ILPS8scrSgsM1k89cDbFd_lKA=/1660x934/filters:focal(2783x350:2793x340):no_upscale()/cloudfront-us-east-1.images.arcpublishing.com/dmn/TBQMLX54XURCIB7IM3JM2KGLAM.jpg"
   },
   {
     name: "Justin Holiday",
@@ -140,14 +113,11 @@ module.exports = [
     height: "6'6",
     weight: 180,
     number: 0,
-    img:"https://mavs.wpenginepowered.com/wp-content/uploads/2023/02/Justin-Holdiay.png",
-    stats: [
-        {
-            ppg: "4.6",
-            apg: "0.9",
-            rpg: "1"
-        }
-    ]
+    img: "https://mavs.wpenginepowered.com/wp-content/uploads/2023/02/Justin-Holdiay.png",
+    ppg: "4.6",
+    apg: "0.9",
+    rpg: "1",
+    backimg: "https://elitesportsny.com/wp-content/uploads/2017/03/USATSI_9909268-1362x987.jpg"
   },
   {
     name: "AJ Lawson",
@@ -155,14 +125,11 @@ module.exports = [
     height: "6'6",
     weight: 179,
     number: 9,
-    img:"https://mavs.wpenginepowered.com/wp-content/uploads/2023/01/A.J._Lawson_Roster_Headshot_22-23.png",
-    stats: [
-        {
-            ppg: "2.6",
-            apg: "0.1",
-            rpg: "0.8"
-        }
-    ]
+    img: "https://mavs.wpenginepowered.com/wp-content/uploads/2023/01/A.J._Lawson_Roster_Headshot_22-23.png",
+    ppg: "2.6",
+    apg: "0.1",
+    rpg: "0.8",
+    backimg: "https://dbukjj6eu5tsf.cloudfront.net/gamecocksonline.com/images/2020/1/6/Lawson_20191106_MBB_Brodie_65.jpg"
   },
   {
     name: "Javale McGee",
@@ -170,14 +137,11 @@ module.exports = [
     height: "7'0",
     weight: 270,
     number: 00,
-    img:"https://mavs.wpenginepowered.com/wp-content/uploads/2022/07/Javale-McGee-Roster-Headshot-22-23.png",
-    stats: [
-        {
-            ppg: "4.1",
-            apg: "0.3",
-            rpg: "2.6"
-        }
-    ]
+    img: "https://mavs.wpenginepowered.com/wp-content/uploads/2022/07/Javale-McGee-Roster-Headshot-22-23.png",
+    ppg: "4.1",
+    apg: "0.3",
+    rpg: "2.6",
+    backimg: "https://images2.minutemediacdn.com/image/upload/c_crop,w_4947,h_2782,x_0,y_0/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/images/ImagnImages/mmsport/83/01gghqm1z30yz95g22x0.jpg"
   },
   {
     name: "Markieff Morris",
@@ -185,14 +149,11 @@ module.exports = [
     height: "6'9",
     weight: 245,
     number: 13,
-    img:"https://mavs.wpenginepowered.com/wp-content/uploads/2023/02/MARKEIFF-MORRIS_Jersey-Swap-1.png",
-    stats: [
-        {
-            ppg: "3.3",
-            apg: "0.8",
-            rpg: "2"
-        }
-    ]
+    img: "https://mavs.wpenginepowered.com/wp-content/uploads/2023/02/MARKEIFF-MORRIS_Jersey-Swap-1.png",
+    ppg: "3.3",
+    apg: "0.8",
+    rpg: "2",
+    backimg: "https://www.si.com/.image/t_share/MTk1NzYwNzM1MDIyNzUzNzg2/markieff-morris-comments-on-twin-brothers-past.jpg"
   },
   {
     name: "Frank Ntilinka",
@@ -200,14 +161,11 @@ module.exports = [
     height: "6'4",
     weight: 200,
     number: 21,
-    img:"https://mavs.wpenginepowered.com/wp-content/uploads/2021/09/Frank-Ntilikina-Roster-Headshot-22-23.png",
-    stats: [
-        {
-            ppg: "2.3",
-            apg: "1.1",
-            rpg: "1.3"
-        }
-    ]
+    img: "https://mavs.wpenginepowered.com/wp-content/uploads/2021/09/Frank-Ntilikina-Roster-Headshot-22-23.png",
+    ppg: "2.3",
+    apg: "1.1",
+    rpg: "1.3",
+    backimg: "https://images2.minutemediacdn.com/image/fetch/w_850,h_560,c_fill,g_auto,f_auto/https://dailyknicks.com/wp-content/uploads/getty-images/2022/05/1397129193-850x560.jpeg"
   },
   {
     name: "Theo Pinson",
@@ -215,44 +173,34 @@ module.exports = [
     height: "6'7",
     weight: 212,
     number: 1,
-    img:"https://mavs.wpenginepowered.com/wp-content/uploads/2021/12/Theo-Pinson-Roster-Headshot-22-23.png",
-    stats: [
-        {
-            ppg: "1.8",
-            apg: "0.8",
-            rpg: "1.1"
-        }
-    ]
-  },  
+    img: "https://mavs.wpenginepowered.com/wp-content/uploads/2021/12/Theo-Pinson-Roster-Headshot-22-23.png",
+    ppg: "1.8",
+    apg: "0.8",
+    rpg: "1.1",
+    backimg: "https://images2.minutemediacdn.com/image/upload/c_crop,w_5437,h_3058,x_0,y_0/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/images/ImagnImages/mmsport/83/01g5a51mezy3cx3q39w8.jpg"
+  },
   {
     name: "Dwight Powell",
     position: "Center",
     height: "6'10",
     weight: 240,
     number: 7,
-    img:"https://mavs.wpenginepowered.com/wp-content/uploads/2019/07/Dwight-Powell-Roster-Headshot-22-23.png",
-    stats: [
-        {
-            ppg: "6.8",
-            apg: "0.9",
-            rpg: "4.3"
-        }
-    ]
-  },  
+    img: "https://mavs.wpenginepowered.com/wp-content/uploads/2019/07/Dwight-Powell-Roster-Headshot-22-23.png",
+    ppg: "6.8",
+    apg: "0.9",
+    rpg: "4.3",
+    backimg: "https://cdn.vox-cdn.com/thumbor/TGP_hGTwASKJPwY2t3LTXI1RDGs=/0x0:3668x2447/1200x800/filters:focal(1800x257:2386x843)/cdn.vox-cdn.com/uploads/chorus_image/image/63962465/usa_today_12348134.0.jpg"
+  },
   {
     name: "McKinley Wright IV",
     position: "Point Guard",
     height: "5'11",
     weight: 192,
     number: 23,
-    img:"https://mavs.wpenginepowered.com/wp-content/uploads/2023/01/McKinley_Wright_Roster_Headshot_22-23.png",
-    stats: [
-        {
-            ppg: "2.9",
-            apg: "2",
-            rpg: "1.4"
-        }
-    ]
+    img: "https://mavs.wpenginepowered.com/wp-content/uploads/2023/01/McKinley_Wright_Roster_Headshot_22-23.png",
+    ppg: "2.9",
+    apg: "2",
+    rpg: "1.4",
+    backimg:"https://dmn-dallas-news-prod.cdn.arcpublishing.com/resizer/uQ-auQWILjT10KZF1Jh1I9Oa-ks=/1660x934/filters:focal(2109x843:2119x833):no_upscale()/cloudfront-us-east-1.images.arcpublishing.com/dmn/ZTCACKTUUZA4RNPSFZPMULTWYU.jpg"
   },
-
 ];

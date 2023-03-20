@@ -4,17 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <title>Mavs Stats</title>
 </head>
-<body>
-    <%=mavs.name%> <br/>
-    <%=mavs.height%> <br/>
-    <%=mavs.weight%> <br/>
-    # <%=mavs.number%> <br/>
-    <a href="/mavs/<%=mavs.id%>/edit">Edit Player</a> <br/>
+<body style="background-color: #002B5E; color: white;">
+    
+    <%- include('./partials/NavBar.ejs') %>
+    <div class="jumbotron" style="background-color: rgba(0, 0, 0, 0.3);background-image: url('<%=mavs.backimg%>'); background-size: cover; ">
+    <p style="font-size: 40px;color: white;"><%=mavs.name%></p><br/>
+    <p style="font-size: 25px;color: white;">Height: <%=mavs.height%></p><br/>
+    <p style="font-size: 25px;color: white;">Weight: <%=mavs.weight%> lbs.</p><br/>
+    <p style="font-size: 25px;color: white;">Jersey Number: # <%=mavs.number%></p><br/>
+    <p style="font-size: 25px;color: white;">Points per Game: <%=mavs.ppg%></p><br/>
+    <p style="font-size: 25px;color: white;">Assists per Game: <%=mavs.apg%></p><br/>
+    <p style="font-size: 25px;color: white;">Rebounds per Game: <%=mavs.rpg%></p><br/>
+    <a href="/mavs/<%=mavs.id%>/edit" style="font-size: 25px; color: white;">Edit Player</a> <br/>
     <form action="/mavs/<%=mavs.id%>?_method=DELETE" method="POST">
-        <input type="submit" value="Delete Player">
+        <input type="submit" value="Delete Player" style="background-color: crimson; color: white; font-size: 20px;margin-top: 15px;">
     </form>
-
+</div>
+<div class="text-center">
+    <img src="https://logodownload.org/wp-content/uploads/2021/07/dallas-mavericks-logo-1.png" class="rounded" style="height: 200px; width: 200px;" alt="...">
+  </div>
 </body>
 </html>

@@ -10,9 +10,21 @@ app.use(express.urlencoded({extended: true}))
 const mavsSeed = require('./models/roster.js')
 const Mavs = require('./models/schema.js')
 
+
+
+
+
+//////////////////////
+// 7 RESTFUL ROUTES //
+//////////////////////
+
 // Home Page
 app.get('/mavs', (req, res) => {
     res.render('index.ejs')
+})
+// About Page
+app.get('/mavsabout', (req, res) => {
+    res.render('about.ejs')
 })
 
 // Roster Page
@@ -39,7 +51,7 @@ app.get('/mavs/:id', (req, res) => {
     })
 })
 
-
+// Specific players stat page through id
 app.get('/mavs/:id/edit', (req, res) => {
     Mavs.findById(req.params.id).then((foundMav) => {
         res.render('editplayer.ejs', {
@@ -72,7 +84,7 @@ app.post('/mavsroster', (req, res) => {
 
 
 /// REMOVES PLAYER FROM ROSTER PAGE
-app.delete('mavs/:id', (req, res) => {
+app.delete('/mavs/:id', (req, res) => {
     Mavs.findByIdAndRemove(req.params.id).then(() => {
         res.redirect('/mavsroster')
     })
@@ -85,6 +97,9 @@ app.put('/mavs/:id', (req, res) => {
         res.redirect('/mavsroster')
     })
 })
+
+
+
 
 // app.get('/mavsseed', (req, res) => {
 //     Mavs.create(mavsSeed).then(() => {

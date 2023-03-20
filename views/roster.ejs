@@ -1,26 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <title>Mavs Roster</title>
-</head>
-<body>
-     <br/>
+  </head>
+  <body style="background-color: #002B5E; color: white;">
+    <%- include('./partials/NavBar.ejs') %>
+    <br />
+<div class="container" style="margin: 150px auto; display: flex; flex-wrap: wrap; justify-content: space-between;">
     <% for ( let i = 0; i < mavs.length; i++) { %>
-    <ul>
-        <li>
-            <a class="playerimg" href="/mavs/<%=mavs[i].id%>">
-                <img src=<%=mavs[i].img%>></img>
-              </a>
-        </li>
-    </ul>
+    <div class="card" style="width: 18rem; background-color: #B8C4CA;  ">
+      <img src="<%=mavs[i].img%>" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title" style="color: black;"><%=mavs[i].name%></h5>
+        <p class="card-text" style="color: black;"># <%=mavs[i].number%></p>
+        <a href="/mavs/<%=mavs[i].id%>" class="btn btn-primary">See More</a>
+      </div>
+    </div>
     <% } %>
+</div>
+<div class="text-center">
+    <a href="/mavs/new" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true" style="padding: 20px; margin: 0 0 50px 0 ;">Add New Player</a>
+    </div>
+    <div class="text-center">
+      <img src="https://logodownload.org/wp-content/uploads/2021/07/dallas-mavericks-logo-1.png" class="rounded" style="height: 200px; width: 200px;" alt="...">
+    </div>
 
-    
-    <a href="/mavs/new">Add New Player</a>
-
-
-</body>
+  </body>
 </html>

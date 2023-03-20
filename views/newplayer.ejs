@@ -4,21 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <title>New Roster Addition</title>
 </head>
-<body>
-    New Player
+<body style="background-color: #002B5E; color: white;">
+    <%- include('./partials/NavBar.ejs') %>
+    <h1 class="display-4">New Player</h1>
     <form action="/mavsroster" method="POST">
+        <h2 class="display-5">
         <input placeholder="Name" type="text" name="name">
         <input placeholder="Position" type="text" name="position">
         <input placeholder="Height" type="text" name="height">
         <input placeholder="Weight" type="number" name="weight">
-        <input placeholder="Number" type="number" name="number">
+        <input placeholder="Jersey Number" type="number" name="number">
         <input placeholder="Image URL" type="url" name="img">
         <input placeholder="PPG" type="text" name="ppg">
         <input placeholder="APG" type="text" name="apg">
         <input placeholder="RPG" type="text" name="rpg">
-        <input value="Update Roster" type="submit">
+        <input placeholder="Background Image URL" type="url" name="backimg">
+       </h2> 
+        <input value="Update Roster" type="submit" style="font-size: 25px;">
+    
     </form>
 </body>
 </html>
